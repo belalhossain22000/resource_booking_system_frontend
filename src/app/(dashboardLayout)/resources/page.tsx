@@ -1,9 +1,12 @@
+import { ResourcesPage } from '@/components/Resources/Resources'
 import React from 'react'
 
-const Resources = () => {
+const Resource = () => {
   return (
-    <div>Resources</div>
+    <div className="p-6 flex flex-col gap-6 mb-20">
+          <ResourcesPage/>
+        </div>
   )
 }
 
-export default Resources
+export default Resource
