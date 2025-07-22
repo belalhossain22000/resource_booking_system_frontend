@@ -1,9 +1,12 @@
+import { AllBookings } from '@/components/AllBookings/AllBookings'
 import React from 'react'
 
-const AllBookings = () => {
+const AllBooking = () => {
   return (
-    <div>AllBookings</div>
+    <div className="p-6 flex flex-col gap-6 mb-20">
+      <AllBookings />
+    </div>
   )
 }
 
-export default AllBookings
+export default AllBooking
