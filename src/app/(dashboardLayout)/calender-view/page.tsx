@@ -1,9 +1,12 @@
+import { CalendarView } from '@/components/CalendarView/CalendarView'
 import React from 'react'
 
-const CalendarView = () => {
+const CalendarViewPage = () => {
   return (
-    <div>CalendarView</div>
+    <div className="p-6 flex flex-col gap-6 mb-20">
+      <CalendarView />
+    </div>
   )
 }
 
-export default CalendarView
+export default CalendarViewPage
